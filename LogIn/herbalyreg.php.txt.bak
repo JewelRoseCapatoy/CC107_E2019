@@ -1,0 +1,28 @@
+<?php
+$servername="localhost";
+$mysql_user="root";
+$mysql_pass="";
+$dbname="herbalyreg";
+$conn=mysqli_connect($servername, $mysql_user, $mysql_pass, $dbname);
+if($conn){
+	echo("connection success");
+}else{
+	echo("connection not success");
+
+}
+if($_SERVER['REQUEST_METHOD']=='POST'){
+	$name=$_POST['name'];
+	$add=$_POST['address'];
+	$email=$_POST['email'];
+	$user=$_POST['username'];
+	$pass=$_POST['password'];
+	$query="INSERT INTO `herbalregis`(`name`, `address`, `email`, `username`, `password`) VALUES ('$name', '$add', '$email', '$user', '$pass')"
+	if(mysqli_query($conn, $query)){
+		echo("registered successfully");
+	}else{
+		echo("error in registration");
+	}
+	}else{
+		echo("error in request method");
+}
+?>
