@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="80dp"
-            android:text="Login"
+            android:text="Logins"
             android:textColor="#000"
             android:textSize="25dp"
             android:textStyle="bold" />
