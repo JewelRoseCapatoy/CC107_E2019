@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_homepag.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_homepage.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/activity_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/app_bar_homepage.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/contacts_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/content_homepage.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_contacts.xml" value="0.2749094202898551" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_profile.xml" value="0.3342391304347826" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_settings.xml" value="0.3342391304347826" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/layout/nav_header_homepage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/menu/activity_main_drawer.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/Herbaly/app/src/main/res/menu/homepage.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
