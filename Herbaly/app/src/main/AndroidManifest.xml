@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Herbaly">
+        <activity
+            android:name=".LookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GiveActivity"
+            android:exported="false" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MainActivity" />

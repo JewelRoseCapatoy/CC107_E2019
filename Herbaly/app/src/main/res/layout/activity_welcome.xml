@@ -4,32 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bggive"
     tools:context=".WelcomeActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
         android:text="Welcome to Herbaly!"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="@color/green"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btngetstarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:fontFamily="@font/nexa_bold"
         tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btngetstarted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="268dp"
+        android:backgroundTint="@color/green"
         android:text="Let's get started"
         android:textAlignment="center"
+        android:fontFamily="@font/nexa_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="212dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoonly" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
